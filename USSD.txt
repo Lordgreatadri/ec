@@ -1,0 +1,17 @@
+*713*2#   GOWA Service
+http://mysmsinbox.com/gowa/ussd/gowa_ussd_request.php
+
+
+*714*13# Presidential Cabinet
+http://ec2-52-214-1-251.eu-west-1.compute.amazonaws.com/client/pcabinet/ussd/pcabinet_ussd_initiator.php
+https://mycloud.com.gh/client/pcabinet/ussd/pcabinet_ussd_initiator.php
+
+
+
+*714*14# Hitmaker  for MTN MOMO TESTING
+http://mysmsinbox.com/mtn_hitz/ussd/hit_maker_ussd_request.php
+
+
+
+*714*12# gadangme
+http://mysmsinbox.com/gadangme/ussd/gadangme_ussd_request.php

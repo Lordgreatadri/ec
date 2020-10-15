@@ -1,0 +1,41 @@
+
+Database credentials need to be replaced in files within the following directories on the live server when deployed
+
+/view/controllers/cn_pg.php  database credential to postgresSQl   and comment line with require_once 'cn.php';  and uncomment line with require_once 'cn_pg.php'; all in login_function.php and data_file.php files.
+
+
+/view/controllers/config.php database credential to postgresSQl
+
+
+
+
+
+
+
+
+ADD datable for login and login history as bellow:
+
+CREATE TABLE public.users (
+uid SERIAL PRIMARY KEY,
+username character varying(255),
+password character varying(255),
+company character varying(255),
+entry_date timestamp(0) without time zone NULL DEFAULT NOW()
+);
+
+-- ----------------------------
+-- Records of users
+-- ----------------------------
+INSERT INTO `users` VALUES ('1', 'support@mcc.com', '434990c8a25d2be94863561ae98bd682', 'MCC', '2020-09-16 08:55:14');
+
+default password => support
+
+
+
+CREATE TABLE public.login_hist (
+id SERIAL PRIMARY KEY,
+username character varying(255),
+company character varying(255),
+login_date timestamp(0) without time zone NULL DEFAULT NOW()
+);
+

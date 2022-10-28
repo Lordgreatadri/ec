@@ -2,10 +2,10 @@
 	 
 	class db_connect
 	{
-		private $db_host = 'localhost'; //server IP here later
-		private $db_name = 'mcc_ec';
+		private $db_host = ' '; //server IP here later
+		private $db_name = ' ';
 		private $db_username = 'postgres';
-		private $pass_word = '1234';//FAg8(3P^tJVnBDsF%F  //Mccg8(3P^tJVnBDsF  EcsDp@E&(W@PR3aPc
+		private $pass_word = ' f';// (3P  %F  // (3P^    @E W @ 
 		private $charset = 'utf8mb4';
 
 		//access to server/database connection

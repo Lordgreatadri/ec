@@ -7,9 +7,9 @@ class DBCon{
      * means that they will only be available with the
      * Database class
      */
-    private $db_host = "127.0.0.1";  // Change as required  127.0.0.1
+    private $db_host = " .0.0.1";  // Change as required  127.0.0.1
     private $db_user = "root";  // Change as required
-    private $db_pass = "FAg8(3P^tJVnBDsF%F"; //Bim32!@b)o //FAg8(3P^tJVnBDsF%F  '#4kLxMzGurQ7Z~'    Change as required
+    private $db_pass = " (  P^ %F"; // !@b)o // (3P^ %F  '# ~'    Change as required
     private $db_name = "mtncare247";    // Change as required //civil_service
    
     /*

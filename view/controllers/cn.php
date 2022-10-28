@@ -2,10 +2,10 @@
 	
 	class db_connect
 	{
-		private $db_host = '127.0.0.1';
-		private $db_name = 'ec_gh';
+		private $db_host = ' 0.0.1';
+		private $db_name = ' ';
 		private $db_username = 'root';
-		private $pass_word = '';//FAg8(3P^tJVnBDsF%F  //Mccg8(3P^tJVnBDsF  EcsDp@E&(W@PR3aPc
+		private $pass_word = '';// (3P^t  %F  // ( ^tJVnBDsF  E csD p@  W@  
 		private $charset = 'utf8mb4';
 
 		//access to server/database connection 2018-04-09 16:02:44

@@ -8,10 +8,10 @@ class DBConnect
      * means that they will only be available with the
      * Database class
      */
-    private $db_host = "127.0.0.1";  // Change as required  127.0.0.1
+    private $db_host = "1 ";  // Change as required  1 7.0.0.1
     private $db_user = "root";  // Change as required
-    private $db_pass = "FAg8(3P^tJVnBDsF%F"; //Bim32!@b)o //FAg8(3P^tJVnBDsF%F Change as required
-    private $db_name = "mtncare247";    // Change as required //civil_service
+    private $db_pass = " "; // !@b)o //F  Change as required
+    private $db_name = " ";    // Change as required //civil_service
    
     /*
      * Extra variables that are required by other function such as boolean con variable

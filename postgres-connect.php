@@ -2,13 +2,11 @@
 
 // ========================================
 
-// [root@localhost bin]#cd /var/www/html
-
-// [root@localhost bin]#vi connection_test.php
+ 
 
 // <?php
 
-$db_handle = pg_connect("host=localhost dbname=edb user=enterprisedb password=postgres");
+$db_handle = pg_connect("host=   =  user=  password=postgres");
 
 if ($db_handle) 
 {
